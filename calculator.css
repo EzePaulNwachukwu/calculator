@@ -10,17 +10,24 @@
   width: 250px;
   margin: auto;
   padding: 10px;
-  background-color: bisque;
+  background-color: black;
 }
+
 .result-input {
   font-weight: bolder;
   font-size: xx-large;
   text-align: right;
-  width: 90%;
+  width: 80%;
+  margin: auto;
   border: 0px;
-  padding: 15px;
-  margin-bottom: 10px;
+  padding: 20px;
+  margin-bottom: 15px;
   background-color: #ffff;
+}
+
+.inp {
+  width: 90%;
+  margin: auto;
 }
 
 button {
@@ -29,37 +36,62 @@ button {
   margin-bottom: 10px;
   background-color: blanchedalmond;
 }
+
+.allBtn {
+  width: 90%;
+  margin: auto;
+}
+
 @media (max-width:760px) {
   .button-eqt {
-  background-color: #0000ff;
-  color: white;
-  padding: 10px;
-  width: 23%;
-  margin-bottom: 10px;
+    background-color: #0000ff;
+    color: white;
+    padding: 10px;
+    width: 23%;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+main{
+  margin-top:100px ;
 }
+  .calculator-body {
+    width: 250px;
+    margin: auto;
+    padding: 10px;
+    background-color: black;
+    border-radius: 15px;
+  }
 
-.calculator-body {
-  width: auto;
-  margin: auto;
-  margin-top: 100px;
-  padding: 10px;
-  background-color: bisque;
-}
-.result-input {
-  font-weight: bolder;
-  font-size: xx-large;
-  text-align: right;
-  width: 90%;
-  border: 0px;
-  padding: 15px;
-  margin-bottom: 10px;
-  background-color: #ffff;
-}
+  .result-input {
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: right;
+    width:85%;
+    margin: auto;
+    border: 0px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #ffff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
 
-button {
-  padding: 10px;
-  width: 23%;
-  margin-bottom: 10px;
-  background-color: blanchedalmond;
-}
+  .inp {
+    width:auto ;
+    margin: auto;
+  }
+
+  button {
+    padding: 10px;
+    width: 23%;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: blanchedalmond;
+  }
+
+  .allBtn {
+    width: auto;
+    margin: auto;
+  }
 }
