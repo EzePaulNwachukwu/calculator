@@ -11,6 +11,10 @@ eqaulto.addEventListener("click", function (e) {
   let a = inputtt.value;
   let x = eval(a);
   inputtt.value = x;
+  if(inputtt.value == "undefined"){
+    inputtt.value = "😶"
+
+  }
 });
 
 let clearr = function () {

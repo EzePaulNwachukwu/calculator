@@ -39,8 +39,9 @@ button {
 }
 
 .calculator-body {
-  width: 250px;
+  width: auto;
   margin: auto;
+  margin-top: 100px;
   padding: 10px;
   background-color: bisque;
 }
